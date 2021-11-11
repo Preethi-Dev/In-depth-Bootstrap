@@ -22,3 +22,35 @@
     top: -50px;
     
 }
+
+.loader{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(187, 185, 185);
+    border-radius: 50%;
+    margin: auto;
+    animation: spin 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.loader::before{
+    content: "";
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+body{
+    background-color: black;
+}
