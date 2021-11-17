@@ -1,0 +1,38 @@
+.parent-container{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+}
+.minus{
+    background-color: #4EBBE4;
+    flex-grow: 1;
+    text-align: center;
+    border-radius:  3px 0px 0px 3px;
+    padding: 5px 15px;
+    color: white;
+}
+.plus{
+    background-color: #4EBBE4;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 0px 3px 3px 0px;
+    padding: 5px 15px;
+    color: white;
+}
+.number{
+    flex-grow: 1;
+    text-align: center;
+    padding: 5px 15px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs{
+    display: flex;
+}
+
